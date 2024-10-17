@@ -1,0 +1,106 @@
+.answers {
+    padding-top: 20px;
+}
+
+.answers-title {
+    display: flex;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.answer-pre-title1 {
+
+    margin-right: 15px;
+
+    color: #DCDCF3;
+}
+.answer-pre-title2 {
+
+    margin-left: 15px;
+    color: #6933DC;
+
+}
+
+.big-title {
+    font-family: "MuseoSansCyrl Bold", sans-serif;
+    font-size: 54px;
+    line-height: 65px;
+    color: #6933DC;
+    padding-top: 60px;
+}
+.big-title span {
+    color: #333333;
+}
+.author {
+     font-size: 20px;
+     line-height: 24px;
+     color: #6933DC;
+    padding-top: 10px;
+    padding-bottom: 60px;
+}
+.author span {
+      color: #333333;
+}
+
+
+
+.answer-question-title {
+    font-family: "MuseoSansCyrl Bold", sans-serif;
+    font-size: 36px;
+    line-height: 43px;
+}
+
+.answer-question-title span {
+    color: #6933DC;
+}
+
+.answer-question-options {
+    margin-top: 40px;
+    min-height: 216px;  /* расширили этот блок*/
+}
+
+.answer-question-option {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    display: flex;   /* чтобы круги и инпут центрировать */
+    align-items: center;
+}
+
+.answer-question-option div {
+    margin-right: 13px;
+    padding-bottom: 5px
+}
+.answer-question-option label {
+    cursor: pointer;
+}
+
+.answer-question-test {
+    margin-top: 10px;
+}
+
+.answer-question-result {
+    padding-bottom: 20px;
+
+}
+.answer-question-result a {
+
+    text-decoration: none; /* убрали подчёркивание*/
+}
+.option-answer {
+    display: flex;
+    align-items: center;
+}
+.green {
+    color: #5FDC33;
+
+}
+
+.red {
+    color: #DC3333;
+
+}
+
+.answer-question:nth-child(2) {
+    margin-top: 20px;
+}
